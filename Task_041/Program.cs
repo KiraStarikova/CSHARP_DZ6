@@ -1,7 +1,7 @@
 ﻿//  Пользователь вводит с клавиатуры M чисел. Посчитайте, 
 //сколько чисел больше 0 ввёл пользователь.
 
-double[] n = Console.ReadLine().Split(' ').Select(e => Convert.ToDouble(e)).ToArray();
+double[] n = Console.ReadLine(). Split(' ').Select(e => Convert.ToDouble(e)).ToArray();
 
 double count = 0;
  
